@@ -1,0 +1,85 @@
+.page{
+    margin-top: 150px;
+}
+.Conti{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    margin-top:20px;
+}
+.Conti-name{
+    height: 300px;
+    width:600px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Conti-name h1{
+    color:#657a42;
+    font-family: 'Caveat',cursive;
+    font-size: 68px;
+}
+.Conti-name p{
+    color:gray;
+    font-size: 15px;
+    text-align: center;
+}
+.Conti-places{
+    display: flex;
+    overflow: hidden;
+    gap:30px;
+    width:200%;
+    transition: .5s;
+   
+}
+.countrys{
+    height: 400px;
+    position: relative;
+    width:50%;
+    z-index:0;
+}
+.countrys p{
+    color:white;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    bottom:35%;
+    left:10%;
+}
+.c-image{
+    margin-top:20px;
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.leftbtn,.rightbtn{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 50px;
+    z-index:1;
+    color:black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: .5s ease;
+}
+.rightbtn:hover{
+    background-color: #657a42;
+    color: white;
+    border: none;
+}
+.leftbtn:hover{
+    background-color: #657a42;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,53 @@
+.main-page{
+    background-image: url("../../Components/Images/BG2.jpg");
+    height: 100vh;
+    background-size:cover;
+    color:#e6e5e5;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.page-content{
+    margin-left: 300px;
+    text-align: start;
+}
+.page-content h1{
+    color:rgb(255, 255, 255);
+    font-size:65px;
+    font-weight: 400;
+    z-index: 0;
+    position: relative;
+}
+.page-content span{
+    font-weight:400;
+    font-size: 70px;
+    z-index:1;
+    margin-left: 10px;
+}
+.page-content  p{
+    font-family: 'Pacifio',cursive;
+}
+.page-content h2{
+    position: absolute;
+    top:31%;
+    font-family: 'Caveat',cursive;
+    font-size:98px;
+    font-weight: bold;
+    color:#00000048;
+}
+.page-content .btn{
+    padding:10px;
+    margin-top: 40px;
+    background-color: transparent;
+    border:1px solid #fff;
+    color:#fff;
+    width: 200px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color:#657a42;
+}

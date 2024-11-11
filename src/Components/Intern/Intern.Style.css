@@ -1,0 +1,44 @@
+.mainbox-intern{
+    display: flex;
+    margin-top:40px;
+    
+}
+.Intern{
+    width:25%;
+    height:350px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    
+}
+.image{
+    height: 100%;
+    width:100%;
+    
+}
+.InternText{
+    position: absolute;
+    top:30%;
+    color:#ffffff;
+    width:60%;
+    margin-left:70px;
+    background-color: rgba(0, 0, 0, 0.185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.InternText h1{
+    font-size:20px;
+}
+.InternText p{
+    font-size:13px;
+    margin-top:20px;
+}
+.InternText button{
+    background-color: #657a42;
+    padding:8px 8px 6px 8px;
+    border: none;
+    border-radius: 30px;
+    color:#ffff;
+    margin-top:20px;
+}

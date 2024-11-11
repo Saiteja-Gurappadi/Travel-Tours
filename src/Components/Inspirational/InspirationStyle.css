@@ -1,0 +1,89 @@
+.inspiration {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.inspiration h1{
+    font-family: 'Caveat',cursive;
+    font-size: 88px;
+    color:#657a42;
+}
+.inspiration h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.travelers{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+.travelers button{
+    background-color: #657a42;
+    padding:18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    color:#ffff;
+}
+.left{
+    margin-top:100px;
+    position:absolute;
+    left:10%;
+    right:auto;
+}
+.right{
+    margin-top:100px;
+    position: absolute;
+    right: 10%;
+    left: auto;
+}
+.slider{
+    overflow: hidden;
+    margin:0px 350px;
+    
+}
+.slider ul {
+    display: flex;
+    width:200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.slider ul li{
+    list-style: none;
+    width:25%;
+    padding:20px;
+    text-align: start;
+    margin: 0 1px;
+    
+}
+.slide .img{
+    height:90px;
+    width:90px;
+    border-radius: 50px;
+    border:2px solid #657a42;
+}
+.slide{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding:40px;
+    border-radius:10px;
+    line-height: 1.4;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.user-info h3{
+    color:#657a42;
+}
+.user-info span{
+    color:gray;
+}
+.slide p{
+    color:rgb(7, 6, 6);
+    margin-top: 10px;
+    font-size: 15px;
+    width:80%;
+}

@@ -1,0 +1,47 @@
+const TravelData =
+[
+{   
+    id:1,
+    city:"Australia",
+    img:require('../Images/AUS.webp')
+}
+,
+{   
+    id:2,
+    city:"China",
+    img:require('../Images/CHINA.jpg')
+}
+,
+{
+    id:3,
+    city:"Germany",
+    img:require('../Images/GERMANY.jpeg')
+},
+{
+    id:4,
+    city:"Japan",
+    img:require('../Images/JAPAN.jpg')
+},
+{
+    id:5,
+    city:"Nepal",
+    img:require('../Images/NEPAL.webp')
+},
+{
+    id:6,
+    city:"Tanza",
+    img:require('../Images/TANZANEW.jpg')
+},
+{
+    id:7,
+    city:"Vietnam",
+    img:require('../Images/VIETNAM.jpg')
+},
+{
+    id:8,
+    city:"Nica",
+    img:require('../Images/NICA.webp')
+}
+]
+
+export default TravelData

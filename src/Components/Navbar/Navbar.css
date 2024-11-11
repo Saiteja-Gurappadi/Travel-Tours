@@ -1,0 +1,69 @@
+.header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:999;
+}
+.nav-bg{
+    background-color: rgba(65, 62, 62, 0.367);
+}
+.dark{
+    background-color: #0e5c2285;
+    color:#ffff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 50px;
+    align-items: center;
+}
+.left-comp a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    padding:10px;
+    transition: 0.5 ease-in-out;
+    text-shadow: 50px black;
+    border-radius: 5px;
+}
+.white a{
+    color:#ffff;
+}
+
+.left-comp a:hover{
+    background-color: rgba(149, 123, 123, 0.226);
+    
+    backdrop-filter: blur(5px);
+    box-shadow: 20px red;
+}
+.left-comp{
+    display: flex;
+    gap:40px;
+}
+.right-comp{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.right-comp a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-comp svg{
+    fill:rgb(255, 255, 255);
+    padding:8px;
+
+}
+.white svg{
+    fill:#fff;
+}
+.right-comp svg:hover{
+    background-color: rgba(149, 123, 123, 0.226);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.header hr{
+    border:0.5px #918d8d solid;
+}

@@ -1,0 +1,123 @@
+.form-box{
+    border:1px solid #fff;
+    padding:20px;
+    height:400px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    margin-left:60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+    width:320px;
+    transition: .5s ease;
+    position: relative;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.reg-box{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 0px;
+    transform:translateY(0);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 5px;
+}
+.input label{
+    font-size: 15px;
+}
+.input input{
+    padding:7px 5px;
+    border: none;
+    outline: none;
+    background:transparent;
+    font-size:15px;
+    border-bottom: 1px solid #ffff;
+    font-weight:500;
+    color:#fff;
+}
+.rem-for{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.rem-for label{
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: 500;
+}
+.rem-for a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+.rem-for a:hover{
+    text-decoration: underline;
+}
+.button-div{
+    margin-top: 10px;
+}
+.button{
+    padding:5px 10px;
+    width: 250px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #fff;
+    color:black;
+}
+.reg{
+    margin-top: 10px;
+}
+.reg p{
+    font-size: 14px;
+    
+}
+.reg span{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 8px;
+}
+.reg span:hover{
+    text-decoration: underline;
+}
+.close-btn{
+    color:white;
+    background-color: transparent;
+    padding:3px 10px;
+    position: absolute;
+    top:3px;
+    right:3px;
+    font-weight: bold;
+    font-size:20px;
+    border-radius:10px;
+    border:1px solid #ffff;
+    transition: .5s ease;
+}
+.close-btn:hover{ 
+    color:black;
+    background-color: #ffff;
+
+}

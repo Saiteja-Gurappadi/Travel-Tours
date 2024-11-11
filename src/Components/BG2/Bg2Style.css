@@ -1,0 +1,42 @@
+.BG-2{
+    position: relative;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BG-2 img{
+    min-height: 70vh;
+    width: 100%;
+}
+.BG-2 .text{
+    position: absolute;
+    width:70%;
+    top:20%;
+    color:#ffff;
+}
+.text h1{
+    color:#ffff;
+    font-size: 75px;
+    position: relative;
+    margin-bottom:40px;
+}
+.text h2{
+    position: absolute;
+    top:19%;
+    font-family: 'Caveat',cursive;
+    font-size:78px;
+    color:#657a42;
+}
+.text button{
+    padding:10px;
+    width:150px;
+    color:aliceblue;
+    background-color: #657a42;
+    border: none;
+    border-radius:7px;
+    margin-top: 30px;
+    font-weight: 600;
+    cursor:not-allowed;
+}
+
