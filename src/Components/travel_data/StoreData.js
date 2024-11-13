@@ -1,0 +1,81 @@
+const StoreData = [
+    {
+        item:1,
+        name:'TouristBag',
+        Price:899,
+        img:require('../Images/BAG1.jpg'),
+    },
+    {
+        item:2,
+        name:'TouristBag ',
+        Price:999,
+        img:require('../Images/BAG2.webp'),
+    },
+    {
+        item:3,
+        name:'TouristBag ',
+        Price:799,
+        img:require('../Images/BAG3.jpg'),
+    },
+    {
+        item:4,
+        name:'TouristBag ',
+        Price:509,
+        img:require('../Images/BAG4.jpg'),
+    },
+    {
+        item:5,
+        name:'CoolKitts',
+        Price:459,
+        img:require('../Images/CoolKit.jpg'),
+    },
+    {
+        item:6,
+        name:'Pillows',
+        Price:300,
+        img:require('../Images/PILLOW1.webp')
+    },
+    {
+        item:7,
+        name:'Pillows ',
+        Price:899,
+        img:require('../Images/PILLOW2.webp'),
+    },
+    {
+        item:8,
+        name:'WaistBag',
+        Price:899,
+        img:require('../Images/WAISTBAG1.jpg'),
+    },
+    {
+        item:9,
+        name:'WaistBag',
+        Price:899,
+        img:require('../Images/WAISTBAG2.jpg'),
+    },
+    {
+        item:10,
+        name:'WaisttBag',
+        Price:899,
+        img:require('../Images/WAISTBAG3.jpg'),
+    },{
+        item:11,
+        name:'TENT',
+        Price:899,
+        img:require('../Images/TENT1.jpg'),
+    },
+    {
+        item:12,
+        name:'TENT',
+        Price:899,
+        img:require('../Images/TENT2.jpg'),
+    },
+    {
+        item:13,
+        name:'TENT',
+        Price:899,
+        img:require('../Images/TENT3.webp'),
+    },
+
+]
+export default StoreData
