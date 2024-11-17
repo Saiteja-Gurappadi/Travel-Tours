@@ -12,11 +12,11 @@ const Destinations = () => {
   const scroll = useRef();
   let tx=0;
 const back = ()=>{
-  tx =tx -100;
+  tx =tx -150;
   scroll.current.style.transform=`translateX(${tx}%)`
 }
 const front= ()=>{
-tx =tx +100;
+tx =tx +150;
   scroll.current.style.transform=`translateX(${tx}%)`
 }
   return (
@@ -30,6 +30,7 @@ tx =tx +100;
                 <button className='rightbtn' onClick={front}><FaArrowRight/></button>
                 </div>
             </div>
+    
             <div className='Conti-places' ref={scroll}>
             {
                 d1?.map((value)=>(
@@ -40,7 +41,6 @@ tx =tx +100;
                 ))
             }
             </div>
-            
         </div>
         <div className='Conti'>
             <div className='Conti-name'>
@@ -61,7 +61,6 @@ tx =tx +100;
                 ))
             }
             </div>
-            
         </div>
         <div className='Conti'>
             <div className='Conti-name'>

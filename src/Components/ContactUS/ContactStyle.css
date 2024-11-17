@@ -1,0 +1,16 @@
+.contact-main {
+    background-color:aquamarine;
+    width:500px;
+    height:300px;
+    text-align: center;
+}
+.contact-main h1{
+    color:black;
+    margin-bottom: 70px;
+}
+.contactPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
