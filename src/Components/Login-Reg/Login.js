@@ -10,6 +10,10 @@ function Login() {
     const close =()=>{
         setShow(!show)
     }
+    const [details,setDetails] = useState();
+    const handlerEmail = (e)=>{
+        
+    }   
   return (
     <div>
         {show && <div className='form-box' >
@@ -18,7 +22,7 @@ function Login() {
                 <div className='inputs'>
                     <div className='input'>
                     <label>Email</label>
-                    <input type='email' required placeholder='Enter Email'/>
+                    <input type='email' required placeholder='Enter Email' onChange={handlerEmail}/>
                     </div>
                     <div className='input'>
                     <label>Password</label>
