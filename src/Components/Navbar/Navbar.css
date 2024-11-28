@@ -67,3 +67,11 @@
 .header hr{
     border:0.5px #918d8d solid;
 }
+@media (max-width:1000px) {
+    .left-comp{
+        gap:20px;
+    }
+    .right-comp{
+        gap:10px;
+    }
+}

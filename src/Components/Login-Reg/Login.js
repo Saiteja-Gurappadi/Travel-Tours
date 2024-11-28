@@ -21,8 +21,8 @@ function Login() {
                 <h1>Login</h1>
                 <div className='inputs'>
                     <div className='input'>
-                    <label>Email</label>
-                    <input type='email' required placeholder='Enter Email' onChange={handlerEmail}/>
+                    <label>Username</label>
+                    <input type='text' required placeholder='Enter Username' onChange={handlerEmail}/>
                     </div>
                     <div className='input'>
                     <label>Password</label>
