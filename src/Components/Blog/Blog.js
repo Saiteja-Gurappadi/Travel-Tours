@@ -1,6 +1,11 @@
 import React from 'react'
-const Blog = () => {
+import {useState} from 'react'
 
+
+
+const Blog = () => {
+  const [state,setState] = useState();
+  
   return (
     <div className='text-center'>
         <h1 className='text-xl bg-yellow-100 text-white'>Companys Blog</h1>
